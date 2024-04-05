@@ -37,6 +37,11 @@ button {
   border-color: none;
   border: none;
 }
+
+button:hover {
+  background-color: rgb(44, 43, 43);
+  color: white;
+}
 #card-container {
   width: 80%;
   margin: 4rem auto;

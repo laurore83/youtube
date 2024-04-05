@@ -68,25 +68,21 @@ const filterByType = (type) => {
 // filtre
 const sport = document.querySelector(".sport");
 sport.addEventListener("click", function () {
-  sport.style.color = "red";
   filterByType("sport");
 });
 
 const musique = document.querySelector(".musique");
 musique.addEventListener("click", function () {
-  musique.style.color = "red";
   filterByType("musique");
 });
 
 const jeuxVideos = document.querySelector(".jeuxVideos");
 jeuxVideos.addEventListener("click", function () {
-  jeuxVideos.style.color = "red";
   filterByType("jeuxVideos");
 });
 
 const Tous = document.querySelector(".Tous");
 Tous.addEventListener("click", function () {
-  Tous.style.color = "red";
   // Supprimer toutes les cartes actuellement affichées
   document.getElementById("card-container").innerHTML = "";
   postMethods();
