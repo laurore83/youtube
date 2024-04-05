@@ -1,17 +1,21 @@
 [
   {
     "miniatureVideo": "assets/fifa.webp",
+    "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
     "lien": "https://www.youtube.com/watch?v=8R7ojiXL2VA&pp=ygUTZnJhbmNlIGJyZXNpbCAxOTk4IA%3D%3D",
     "titre": "Foot France/Brazil 1998",
     "type": "sport",
-
     "nomDeLaChaine": "FIFA",
+    "logoChaine": "assets/logoFifa.jpg",
+    "dateDeParution": "2022-05-12",
+
     "urlDeLaChaine": "http://",
-    "nombreDeVuest": 8050,
-    "dateDeParution": "5/12/2022"
+    "nombreDeVuest": 8050
   },
   {
     "miniatureVideo": "assets/mozart.webp",
+    "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
+
     "lien": "https://www.youtube.com/watch?v=4W7QP0td_eM&pp=ygUNbW96YXJ0IGNob3Bpbg%3D%3D",
     "titre": "Mozart, Chopin, Beethoven",
     "type": "musique",
@@ -23,6 +27,8 @@
   },
   {
     "miniatureVideo": "assets/mario.webp",
+    "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
+
     "lien": "https://www.youtube.com/watch?v=zgHYumaVPYE&pp=ygUGbWFyaW8g",
     "titre": "Super Mario Bros",
     "type": "jeuxVideos",
@@ -34,6 +40,8 @@
   },
   {
     "miniatureVideo": "assets/freeFight.webp",
+    "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
+
     "lien": "https://www.youtube.com/watch?v=5vKBeM4qcQc&pp=ygUKZnJlZSBmaWdodA%3D%3D",
     "titre": "UFC 298 Free Fight Marathon",
     "type": "sport",
@@ -45,6 +53,8 @@
   },
   {
     "miniatureVideo": "assets/lofi.webp",
+    "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
+
     "lien": "https://www.youtube.com/watch?v=jfKfPfyJRdk",
     "titre": "Lofi",
     "type": "musique",
@@ -56,6 +66,8 @@
   },
   {
     "miniatureVideo": "assets/zelda.webp",
+    "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
+
     "lien": "https://www.youtube.com/watch?v=Ou6UsEf1J_o&pp=ygUFemVsZGE%3D",
     "titre": "The Legend of Zelda",
     "type": "jeuxVideos",
@@ -67,6 +79,8 @@
   },
   {
     "miniatureVideo": "assets/travailMusic.webp",
+    "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
+
     "lien": "https://www.youtube.com/watch?v=91XNPpZ3VxE&pp=ygUPdHJhdmFpbCBtdXNpcXVl",
     "titre": "Travail Musique",
     "type": "musique",

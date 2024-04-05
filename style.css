@@ -63,6 +63,11 @@ img {
   width: 300px;
 }
 
+img.logo {
+  width: 25px;
+  border-radius: 100px;
+}
+
 a {
   display: flex;
   flex-direction: column;
@@ -79,4 +84,10 @@ span {
 span2 {
   font-size: 14px;
   color: rgb(121 114 114);
+}
+
+h3 {
+  color: rgb(121 114 114);
+  font-size: 12px;
+  font-weight: 500;
 }
