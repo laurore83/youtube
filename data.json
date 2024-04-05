@@ -1,0 +1,79 @@
+[
+  {
+    "miniatureVideo": "assets/fifa.webp",
+    "lien": "https://www.youtube.com/watch?v=8R7ojiXL2VA&pp=ygUTZnJhbmNlIGJyZXNpbCAxOTk4IA%3D%3D",
+    "titre": "Foot France/Brazil 1998",
+    "type": "sport",
+
+    "nomDeLaChaine": "FIFA",
+    "urlDeLaChaine": "http://",
+    "nombreDeVuest": 8050,
+    "dateDeParution": "5/12/2022"
+  },
+  {
+    "miniatureVideo": "assets/mozart.webp",
+    "lien": "https://www.youtube.com/watch?v=4W7QP0td_eM&pp=ygUNbW96YXJ0IGNob3Bpbg%3D%3D",
+    "titre": "Mozart, Chopin, Beethoven",
+    "type": "musique",
+    "miniatureAuteur": "http://",
+    "nomDeLaChaine": "Classic Music",
+    "urlDeLaChaine": "http://",
+    "nombreDeVuest": 8050,
+    "dateDeParution": "5/12/2022"
+  },
+  {
+    "miniatureVideo": "assets/mario.webp",
+    "lien": "https://www.youtube.com/watch?v=zgHYumaVPYE&pp=ygUGbWFyaW8g",
+    "titre": "Super Mario Bros",
+    "type": "jeuxVideos",
+    "miniatureAuteur": "http://",
+    "nomDeLaChaine": "WIN Game Mario",
+    "urlDeLaChaine": "http://",
+    "nombreDeVuest": 8050,
+    "dateDeParution": "5/12/2022"
+  },
+  {
+    "miniatureVideo": "assets/freeFight.webp",
+    "lien": "https://www.youtube.com/watch?v=5vKBeM4qcQc&pp=ygUKZnJlZSBmaWdodA%3D%3D",
+    "titre": "UFC 298 Free Fight Marathon",
+    "type": "sport",
+    "miniatureAuteur": "http://",
+    "nomDeLaChaine": "UFC",
+    "urlDeLaChaine": "http://",
+    "nombreDeVuest": 8050,
+    "dateDeParution": "5/12/2022"
+  },
+  {
+    "miniatureVideo": "assets/lofi.webp",
+    "lien": "https://www.youtube.com/watch?v=jfKfPfyJRdk",
+    "titre": "Lofi",
+    "type": "musique",
+    "miniatureAuteur": "http://",
+    "nomDeLaChaine": "chahca",
+    "urlDeLaChaine": "http://",
+    "nombreDeVuest": 8050,
+    "dateDeParution": "5/12/2022"
+  },
+  {
+    "miniatureVideo": "assets/zelda.webp",
+    "lien": "https://www.youtube.com/watch?v=Ou6UsEf1J_o&pp=ygUFemVsZGE%3D",
+    "titre": "The Legend of Zelda",
+    "type": "jeuxVideos",
+    "miniatureAuteur": "http://",
+    "nomDeLaChaine": "Encrypted Duck",
+    "urlDeLaChaine": "http://",
+    "nombreDeVuest": 8050,
+    "dateDeParution": "5/12/2022"
+  },
+  {
+    "miniatureVideo": "assets/travailMusic.webp",
+    "lien": "https://www.youtube.com/watch?v=91XNPpZ3VxE&pp=ygUPdHJhdmFpbCBtdXNpcXVl",
+    "titre": "Travail Musique",
+    "type": "musique",
+    "miniatureAuteur": "http://",
+    "nomDeLaChaine": "Onirik-Musique relaxante",
+    "urlDeLaChaine": "http://",
+    "nombreDeVuest": 8050,
+    "dateDeParution": "5/12/2022"
+  }
+]
