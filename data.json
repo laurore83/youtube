@@ -8,9 +8,9 @@
     "nomDeLaChaine": "FIFA",
     "logoChaine": "assets/logoFifa.jpg",
     "dateDeParution": "2022-05-12",
+    "nombreDeVuest": 8050,
 
-    "urlDeLaChaine": "http://",
-    "nombreDeVuest": 8050
+    "urlDeLaChaine": "http://"
   },
   {
     "miniatureVideo": "assets/mozart.webp",

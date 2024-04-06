@@ -7,10 +7,14 @@
 
 .container {
   width: 100%;
+  max-width: 100%; /* Parce chrome ?! */
+  padding-left: 80px;
+  padding-right: 16px;
 }
 .top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 /* barre de recherhce */
@@ -22,7 +26,7 @@ input,
 label {
   margin: 0.4rem 23px;
   border-radius: 45px;
-  padding: 20px;
+  padding-inline: 20px;
 }
 
 .filter {
@@ -43,19 +47,22 @@ button:hover {
   color: white;
 }
 #card-container {
-  width: 80%;
+  width: 100%;
   margin: 4rem auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .card {
   margin-bottom: 60px;
-  width: 40%;
   display: flex;
   flex-direction: column;
   border-radius: 5px;
+}
+
+.card > a > img {
+  width: 100%;
 }
 
 img {
@@ -63,7 +70,7 @@ img {
   width: 300px;
 }
 
-img.logo {
+.logo {
   width: 25px;
   border-radius: 100px;
 }
@@ -81,12 +88,13 @@ span {
   text-decoration: none;
 }
 
-span2 {
+h2 {
   font-size: 14px;
   color: rgb(121 114 114);
 }
 
-h3 {
+.nombreDeVuest,
+.dateDeParution {
   color: rgb(121 114 114);
   font-size: 12px;
   font-weight: 500;

@@ -20,46 +20,103 @@ postMethods();
 
 // fonction createCard
 function createCard(data) {
+  /*
+    <div>
+      <a lien video>
+        <img miniature video />
+      </a>
+      <div>
+        <div>
+          <img logo chaine />
+        </div>
+        <div>
+          <a href lien video>
+            titre video
+          </a>
+          <br />
+          nom de la chaine
+          <br />
+          <span>nmbr vue</span><span>. date de la video</span>
+        </div>
+      </div
+    </div
+
+  */
+
   const cardElement = document.createElement("div");
   cardElement.classList.add("card");
 
-  const lienVideo = document.createElement("a");
-  lienVideo.href = data.lien;
-  lienVideo.target = "_blank"; // Pour ouvrir le lien dans un nouvel onglet
-
-  const logoChaine = document.createElement("img");
-  logoChaine.src = data.logoChaine;
-  logoChaine.classList.add("logo");
-
-  const titreVideo = document.createElement("span");
-  titreVideo.textContent = data.titre;
-
-  const nomDeLaChaineElement = document.createElement("span2");
-  nomDeLaChaineElement.textContent = data.nomDeLaChaine;
+  const lienVideoImg = document.createElement("a");
+  lienVideoImg.href = data.lien;
+  lienVideoImg.target = "_blank"; // Pour ouvrir le lien dans un nouvel onglet
 
   const miniatureVideo = document.createElement("img");
   miniatureVideo.src = data.miniatureVideo;
+  lienVideoImg.appendChild(miniatureVideo);
+  cardElement.appendChild(lienVideoImg);
 
-  const date = document.createElement("h3");
-  date.textContent = data.dateDeParution;
+  const cardDetails = document.createElement("div");
+  cardDetails.classList.add("cardDetails");
+  cardElement.appendChild(cardDetails);
 
-  // calcul de durée
+  const chaine = document.createElement("div");
+  chaine.classList.add("logo");
+  cardDetails.appendChild(chaine);
 
-  // date du jour en milliseconde
-  const dateNow = Date.now();
-  console.log(dateNow);
+  const logoChaine = document.createElement("img");
+  logoChaine.classList.add("logo");
 
-  // date de parution
-  const dateDeParution = Date.parse(data.dateDeParution);
-  console.log(dateDeParution);
+  logoChaine.src = data.logoChaine;
+  chaine.appendChild(logoChaine);
 
-  function updateDuration() {
-    const duration = dateNow - dateDeParution;
-    // const durationS = formate en seconde
-    console.log(duration);
-    // console.log(durationS);
-  }
-  updateDuration();
+  const infosVideo = document.createElement("div");
+  infosVideo.classList.add("infosVideo");
+  cardDetails.appendChild(infosVideo);
+
+  const lienVideoTitle = document.createElement("a");
+  lienVideoTitle.href = data.lien;
+  lienVideoTitle.target = "_blank"; // Pour ouvrir le lien dans un nouvel onglet
+  infosVideo.appendChild(lienVideoTitle);
+
+  const titreVideo = document.createElement("span");
+  titreVideo.textContent = data.titre;
+  lienVideoTitle.appendChild(titreVideo);
+
+  const nomDeLaChaine = document.createElement("h2");
+  nomDeLaChaine.textContent = data.nomDeLaChaine;
+  infosVideo.appendChild(nomDeLaChaine);
+
+  const nombreDeVuest = document.createElement("span");
+  nombreDeVuest.classList.add("nombreDeVuest");
+  nombreDeVuest.textContent = data.nombreDeVuest;
+  infosVideo.appendChild(nombreDeVuest);
+
+  const dateDeParution = document.createElement("span");
+  dateDeParution.classList.add("dateDeParution");
+  dateDeParution.textContent = ". " + data.dateDeParution;
+  // dateDeParution.textContent = `. ${data.dateDeParution}`;
+  infosVideo.appendChild(dateDeParution);
+
+  //   // Ajouter la carte au conteneur des cartes dans votre page HTML
+  document.getElementById("card-container").appendChild(cardElement);
+
+  //   // calcul de durée
+
+  //   // date du jour en milliseconde
+  //   const dateNow = Date.now();
+  //   console.log(dateNow);
+
+  //   // date de parution
+  //   const dateDeParution = Date.parse(data.dateDeParution);
+  //   console.log(dateDeParution);
+
+  //   function updateDuration() {
+  //     const duration = dateNow - dateDeParution;
+  //     // const durationS = formate en seconde
+  //     console.log(duration);
+  //     // console.log(durationS);
+  //   }
+  //   updateDuration();
 
   // hover
   // Ajouter l'écouteur d'événements mouseover à l'image miniature
@@ -70,18 +127,6 @@ function createCard(data) {
   miniatureVideo.addEventListener("mouseout", function () {
     miniatureVideo.src = data.miniatureVideo;
   });
-  // Placer l'iframe à l'intérieur du lien
-  lienVideo.appendChild(miniatureVideo);
-  lienVideo.appendChild(titreVideo);
-
-  // Ajouter les éléments à la carte
-  cardElement.appendChild(lienVideo);
-  cardElement.appendChild(nomDeLaChaineElement);
-  cardElement.appendChild(logoChaine);
-  cardElement.appendChild(date);
-
-  // Ajouter la carte au conteneur des cartes dans votre page HTML
-  document.getElementById("card-container").appendChild(cardElement);
 }
 
 // Fonction pour afficher les cartes selon le type
