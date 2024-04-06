@@ -79,6 +79,7 @@ function createCard(data) {
   infosVideo.appendChild(lienVideoTitle);
 
   const titreVideo = document.createElement("span");
+  titreVideo.classList.add("titreVideo");
   titreVideo.textContent = data.titre;
   lienVideoTitle.appendChild(titreVideo);
 

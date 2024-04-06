@@ -55,7 +55,7 @@ button:hover {
 }
 
 .card {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
   border-radius: 5px;
@@ -70,6 +70,14 @@ img {
   width: 300px;
 }
 
+.cardDetails {
+  margin-top: 15px;
+  display: flex;
+}
+
+.infosVideo {
+  margin-left: 12px;
+}
 .logo {
   width: 25px;
   border-radius: 100px;
@@ -80,7 +88,9 @@ a {
   flex-direction: column;
   text-decoration: none;
 }
-span {
+
+.titreVideo {
+  margin-bottom: 5px;
   color: black;
   font-weight: 500;
   font-size: 16px;
@@ -89,6 +99,7 @@ span {
 }
 
 h2 {
+  font-weight: 400;
   font-size: 14px;
   color: rgb(121 114 114);
 }
