@@ -27,14 +27,14 @@ function createCard(data) {
       </a>
       <div>
         <div>
-          <img logo chaine />
+          <img logo channel />
         </div>
         <div>
           <a href link video>
             title video
           </a>
           <br />
-          nom de la chaine
+          nom de la channel
           <br />
           <span>nmbr vue</span><span>. date de la video</span>
         </div>
@@ -59,15 +59,19 @@ function createCard(data) {
   cardDetails.classList.add("cardDetails");
   cardElement.appendChild(cardDetails);
 
-  const chaine = document.createElement("div");
-  chaine.classList.add("logo");
-  cardDetails.appendChild(chaine);
+  const channel = document.createElement("div");
+  channel.classList.add("logo");
+  cardDetails.appendChild(channel);
+
+  const linkChannelLogo = document.createElement("a");
+  linkChannelLogo.href = data.urlChannel;
+  linkChannelLogo.target = "_blank"; // Pour ouvrir le link dans un nouvel onglet
+  channel.appendChild(linkChannelLogo);
 
   const logoChannel = document.createElement("img");
   logoChannel.classList.add("logo");
-
   logoChannel.src = data.logoChannel;
-  chaine.appendChild(logoChannel);
+  linkChannelLogo.appendChild(logoChannel);
 
   const infosVideo = document.createElement("div");
   infosVideo.classList.add("infosVideo");
