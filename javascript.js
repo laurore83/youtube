@@ -92,32 +92,62 @@ function createCard(data) {
   viewsNbr.textContent = data.viewsNbr;
   infosVideo.appendChild(viewsNbr);
 
+  // Ajouter un point entre le nombre de vues et la date de publication
+  const point = document.createElement("span");
+  point.classList.add("point");
+
+  point.textContent = " • ";
+  infosVideo.appendChild(point);
+
   const releaseDate = document.createElement("span");
   releaseDate.classList.add("releaseDate");
-  releaseDate.textContent = ". " + data.releaseDate;
   // releaseDate.textContent = `. ${data.releaseDate}`;
   infosVideo.appendChild(releaseDate);
 
   //   // Ajouter la carte au conteneur des cartes dans votre page HTML
   document.getElementById("card-container").appendChild(cardElement);
 
-  //   // calcul de durée
+  function updateDuration() {
+    // calcul de durée
 
-  //   // date du jour en milliseconde
-  //   const dateNow = Date.now();
-  //   console.log(dateNow);
+    // date du jour en milliseconde
+    const dateNow = Date.now();
+    console.log(dateNow);
 
-  //   // date de parution
-  //   const releaseDate = Date.parse(data.releaseDate);
-  //   console.log(releaseDate);
+    // date de parution en millisecondes
+    const releaseDateMilliS = Date.parse(data.releaseDate);
+    console.log(releaseDateMilliS);
+    // différence en secondes
+    const duration = (dateNow - releaseDateMilliS) / 1000;
 
-  //   function updateDuration() {
-  //     const duration = dateNow - releaseDate;
-  //     // const durationS = formate en seconde
-  //     console.log(duration);
-  //     // console.log(durationS);
-  //   }
-  //   updateDuration();
+    // condition de foramtage
+
+    if (duration < 60) {
+      releaseDate.textContent = `${Math.floor(duration)} seconds ago`;
+    } else if (duration < 3600) {
+      releaseDate.textContent = `${Math.floor(duration / 60)} minutes ago`;
+    } else if (duration < 86400) {
+      releaseDate.textContent = `${Math.floor(duration / 3600)} hours ago`;
+    } else if (duration < 604800) {
+      releaseDate.textContent = `${Math.floor(
+        duration / (3600 * 24)
+      )} days ago`;
+    } else if (duration < 2419200) {
+      releaseDate.textContent = `${Math.floor(
+        duration / (3600 * 24 * 7)
+      )} weeks ago`;
+    } else if (duration < 29030400) {
+      releaseDate.textContent = `${Math.floor(
+        duration / (3600 * 24 * 30)
+      )} months ago`;
+    } else {
+      releaseDate.textContent = `${Math.floor(
+        duration / (3600 * 24 * 365)
+      )} years ago`;
+    }
+    console.log(releaseDate);
+  }
+  updateDuration();
 
   // hover
   // Ajouter l'écouteur d'événements mouseover à l'image miniature
