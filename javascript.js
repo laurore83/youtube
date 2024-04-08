@@ -51,7 +51,9 @@ function createCard(data) {
   linkVideoImg.target = "_blank"; // Pour ouvrir le link dans un nouvel onglet
 
   const img = document.createElement("img");
-  img.src = data.img;
+  img.src = data.img.src;
+  img.textContent = data.img.alt;
+
   linkVideoImg.appendChild(img);
   cardElement.appendChild(linkVideoImg);
 
@@ -160,11 +162,12 @@ function createCard(data) {
   // hover
   // Ajouter l'écouteur d'événements mouseover à l'image miniature
   img.addEventListener("mouseover", function () {
-    img.src = data.imgVideo;
+    img.src = data.miniVideo;
   });
   // Ajouter l'écouteur d'événements mouseout à l'image miniature
   img.addEventListener("mouseout", function () {
-    img.src = data.img;
+    img.src = data.img.src;
+    img.textContent = data.img.alt;
   });
 }
 
