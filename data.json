@@ -1,7 +1,10 @@
 [
   {
-    "img": "assets/fifa.webp",
-    "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
+    "img": {
+      "src": "assets/fifa.webp",
+      "alt": "image video Fifa"
+    },
+    "miniVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
     "link": "https://www.youtube.com/watch?v=8R7ojiXL2VA&pp=ygUTZnJhbmNlIGJyZXNpbCAxOTk4IA%3D%3D",
     "title": "Foot France/Brazil 1998",
     "type": "sport",
@@ -12,8 +15,11 @@
     "urlChannel": "https://www.youtube.com/@fifa"
   },
   {
-    "img": "assets/mozart.webp",
-    "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
+    "img": {
+      "src": "assets/mozart.webp",
+      "alt": "image video Mozart"
+    },
+    "miniVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
     "link": "https://www.youtube.com/watch?v=4W7QP0td_eM&pp=ygUNbW96YXJ0IGNob3Bpbg%3D%3D",
     "title": "Mozart, Chopin, Beethoven",
     "type": "musique",
@@ -24,8 +30,11 @@
     "urlChannel": "https://www.youtube.com/@ClassicMusic96"
   },
   {
-    "img": "assets/mario.webp",
-    "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
+    "img": {
+      "src": "assets/mario.webp",
+      "alt": "image video Mario"
+    },
+    "miniVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
     "link": "https://www.youtube.com/watch?v=zgHYumaVPYE&pp=ygUGbWFyaW8g",
     "title": "Super Mario Bros",
     "type": "jeuxVideos",
@@ -36,8 +45,11 @@
     "urlChannel": "https://www.youtube.com/@WINGameMario-bm5rw"
   },
   {
-    "img": "assets/freeFight.webp",
-    "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
+    "img": {
+      "src": "assets/freeFight.webp",
+      "alt": "image video Free fight"
+    },
+    "miniVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
     "link": "https://www.youtube.com/watch?v=5vKBeM4qcQc&pp=ygUKZnJlZSBmaWdodA%3D%3D",
     "title": "UFC 298 Free Fight Marathon",
     "type": "sport",
@@ -48,8 +60,11 @@
     "urlChannel": "https://www.youtube.com/@ufc"
   },
   {
-    "img": "assets/lofi.webp",
-    "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
+    "img": {
+      "src": "assets/lofi.webp",
+      "alt": "image video Lofi girl"
+    },
+    "miniVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
     "link": "https://www.youtube.com/watch?v=jfKfPfyJRdk",
     "title": "Lofi Girl",
     "type": "musique",
@@ -60,8 +75,11 @@
     "urlChannel": "https://www.youtube.com/@LofiGirl"
   },
   {
-    "img": "assets/zelda.webp",
-    "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
+    "img": {
+      "src": "assets/zelda.webp",
+      "alt": "image video Zelda"
+    },
+    "miniVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
     "link": "https://www.youtube.com/watch?v=Ou6UsEf1J_o&pp=ygUFemVsZGE%3D",
     "title": "The Legend of Zelda",
     "type": "jeuxVideos",
@@ -72,8 +90,11 @@
     "urlChannel": "https://www.youtube.com/@EncryptedDuck"
   },
   {
-    "img": "assets/travailMusic.webp",
-    "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
+    "img": {
+      "src": "assets/travailMusic.webp",
+      "alt": "image video Music Work"
+    },
+    "miniVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
     "link": "https://www.youtube.com/watch?v=91XNPpZ3VxE&pp=ygUPdHJhdmFpbCBtdXNpcXVl",
     "title": "Travail Musique",
     "type": "musique",
