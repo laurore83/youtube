@@ -104,8 +104,9 @@ h2 {
   color: rgb(121 114 114);
 }
 
-.nombreDeVuest,
-.dateDeParution {
+.viewsNbr,
+.releaseDate,
+.point {
   color: rgb(121 114 114);
   font-size: 12px;
   font-weight: 500;
