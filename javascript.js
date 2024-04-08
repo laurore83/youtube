@@ -31,7 +31,7 @@ function createCard(data) {
         </div>
         <div>
           <a href link video>
-            titre video
+            title video
           </a>
           <br />
           nom de la chaine
@@ -78,10 +78,10 @@ function createCard(data) {
   linkVideoTitle.target = "_blank"; // Pour ouvrir le link dans un nouvel onglet
   infosVideo.appendChild(linkVideoTitle);
 
-  const titreVideo = document.createElement("span");
-  titreVideo.classList.add("titreVideo");
-  titreVideo.textContent = data.titre;
-  linkVideoTitle.appendChild(titreVideo);
+  const titleVideo = document.createElement("span");
+  titleVideo.classList.add("titleVideo");
+  titleVideo.textContent = data.title;
+  linkVideoTitle.appendChild(titleVideo);
 
   const nameChannel = document.createElement("h2");
   nameChannel.textContent = data.nameChannel;
@@ -89,13 +89,12 @@ function createCard(data) {
 
   const viewsNbr = document.createElement("span");
   viewsNbr.classList.add("viewsNbr");
-  viewsNbr.textContent = data.viewsNbr;
+  viewsNbr.textContent = `${data.viewsNbr} views`;
   infosVideo.appendChild(viewsNbr);
 
   // Ajouter un point entre le nombre de vues et la date de publication
   const point = document.createElement("span");
   point.classList.add("point");
-
   point.textContent = " • ";
   infosVideo.appendChild(point);
 
@@ -198,14 +197,14 @@ Tous.addEventListener("click", function () {
   postMethods();
 });
 
-// filtre par titre
+// filtre par title
 function updateSearchResults(searchText) {
   // Effacer les vidéos actuellement affichées
   document.getElementById("card-container").innerHTML = "";
 
-  // Filtrer les vidéos dont le titre correspond à la recherche
+  // Filtrer les vidéos dont le title correspond à la recherche
   const filteredVideos = cardData.filter((video) =>
-    video.titre.toLowerCase().includes(searchText.toLowerCase())
+    video.title.toLowerCase().includes(searchText.toLowerCase())
   );
 
   // Afficher les vidéos filtrées

@@ -3,91 +3,97 @@
     "img": "assets/fifa.webp",
     "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
     "link": "https://www.youtube.com/watch?v=8R7ojiXL2VA&pp=ygUTZnJhbmNlIGJyZXNpbCAxOTk4IA%3D%3D",
-    "titre": "Foot France/Brazil 1998",
+    "title": "Foot France/Brazil 1998",
     "type": "sport",
     "nameChannel": "FIFA",
     "logoChannel": "assets/logoFifa.jpg",
-    "releaseDate": "2022-05-12",
     "viewsNbr": 8050,
+    "releaseDate": "1998-05-05",
 
-    "urlDeLaChaine": "http://"
+    "urlDeLaChaine": "https://www.youtube.com/@fifa"
   },
   {
     "img": "assets/mozart.webp",
     "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
-
     "link": "https://www.youtube.com/watch?v=4W7QP0td_eM&pp=ygUNbW96YXJ0IGNob3Bpbg%3D%3D",
-    "titre": "Mozart, Chopin, Beethoven",
+    "title": "Mozart, Chopin, Beethoven",
     "type": "musique",
     "miniatureAuteur": "http://",
     "nameChannel": "Classic Music",
-    "urlDeLaChaine": "http://",
-    "viewsNbr": 8050,
-    "releaseDate": "5/12/2022"
+    "logoChannel": "https://yt3.ggpht.com/MUnPOsa4vGHLJU0QvWwH7tpxOA2NdS48dn_BRxHdY-YHnvCNDvD8aDmHNl-tys1mBflCaI4dyA=s88-c-k-c0x00ffffff-no-rj",
+    "viewsNbr": 16345312,
+    "releaseDate": "2024-04-01",
+
+    "urlDeLaChaine": "http://"
   },
   {
     "img": "assets/mario.webp",
     "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
-
     "link": "https://www.youtube.com/watch?v=zgHYumaVPYE&pp=ygUGbWFyaW8g",
-    "titre": "Super Mario Bros",
+    "title": "Super Mario Bros",
     "type": "jeuxVideos",
     "miniatureAuteur": "http://",
     "nameChannel": "WIN Game Mario",
-    "urlDeLaChaine": "http://",
-    "viewsNbr": 8050,
-    "releaseDate": "5/12/2022"
+    "logoChannel": "https://yt3.googleusercontent.com/yEUDdWSvNj7qoa_3j9Om9-0D73wtkpcxztxxXqrGooxi4lHx23lw9yW3eyBIWwfj27Re2kpjoA=s176-c-k-c0x00ffffff-no-rj",
+    "viewsNbr": 5687,
+    "releaseDate": "2024-02-15",
+
+    "urlDeLaChaine": "http://"
   },
   {
     "img": "assets/freeFight.webp",
     "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
-
     "link": "https://www.youtube.com/watch?v=5vKBeM4qcQc&pp=ygUKZnJlZSBmaWdodA%3D%3D",
-    "titre": "UFC 298 Free Fight Marathon",
+    "title": "UFC 298 Free Fight Marathon",
     "type": "sport",
     "miniatureAuteur": "http://",
     "nameChannel": "UFC",
-    "urlDeLaChaine": "http://",
-    "viewsNbr": 8050,
-    "releaseDate": "5/12/2022"
+    "logoChannel": "https://yt3.ggpht.com/BHfbCbg4x6VgO5sEDv0E5odG2ML9NOYxuDN8r91FhI1j0HFu2ulIus3j2D4M-7fdQvwBrgXX=s88-c-k-c0x00ffffff-no-rj",
+    "viewsNbr": 357148,
+    "releaseDate": "2024-04-08",
+
+    "urlDeLaChaine": "http://"
   },
   {
     "img": "assets/lofi.webp",
     "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
-
     "link": "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-    "titre": "Lofi",
+    "title": "Lofi",
     "type": "musique",
     "miniatureAuteur": "http://",
     "nameChannel": "chahca",
-    "urlDeLaChaine": "http://",
-    "viewsNbr": 8050,
-    "releaseDate": "5/12/2022"
+    "logoChannel": "assets/lofilogo.jpg",
+    "viewsNbr": 55332,
+    "releaseDate": "2018-05-12",
+
+    "urlDeLaChaine": "http://"
   },
   {
     "img": "assets/zelda.webp",
     "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
-
     "link": "https://www.youtube.com/watch?v=Ou6UsEf1J_o&pp=ygUFemVsZGE%3D",
-    "titre": "The Legend of Zelda",
+    "title": "The Legend of Zelda",
     "type": "jeuxVideos",
     "miniatureAuteur": "http://",
     "nameChannel": "Encrypted Duck",
-    "urlDeLaChaine": "http://",
-    "viewsNbr": 8050,
-    "releaseDate": "5/12/2022"
+    "logoChannel": "https://yt3.ggpht.com/LaQWtzWA0Lf4nvveQCXgR-OGlSAyT4XSzLswD1eQHUzJShDL-FWBM8e4pijtlmcK84ScLDT_=s88-c-k-c0x00ffffff-no-rj",
+    "viewsNbr": 32541,
+    "releaseDate": "2023-05-12",
+
+    "urlDeLaChaine": "http://"
   },
   {
     "img": "assets/travailMusic.webp",
     "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
-
     "link": "https://www.youtube.com/watch?v=91XNPpZ3VxE&pp=ygUPdHJhdmFpbCBtdXNpcXVl",
-    "titre": "Travail Musique",
+    "title": "Travail Musique",
     "type": "musique",
     "miniatureAuteur": "http://",
     "nameChannel": "Onirik-Musique relaxante",
-    "urlDeLaChaine": "http://",
-    "viewsNbr": 8050,
-    "releaseDate": "5/12/2022"
+    "logoChannel": "https://yt3.ggpht.com/ytc/AIdro_nIyF2Ih8J7WszhZPiuchEH3OizxvzoAxcpbGUWwskSxw=s88-c-k-c0x00ffffff-no-rj",
+    "viewsNbr": 46854,
+    "releaseDate": "2024-03-12",
+
+    "urlDeLaChaine": "http://"
   }
 ]
