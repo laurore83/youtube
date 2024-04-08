@@ -9,7 +9,6 @@
     "logoChannel": "assets/logoFifa.jpg",
     "viewsNbr": 8050,
     "releaseDate": "1998-05-05",
-
     "urlChannel": "https://www.youtube.com/@fifa"
   },
   {
@@ -18,13 +17,11 @@
     "link": "https://www.youtube.com/watch?v=4W7QP0td_eM&pp=ygUNbW96YXJ0IGNob3Bpbg%3D%3D",
     "title": "Mozart, Chopin, Beethoven",
     "type": "musique",
-    "miniatureAuteur": "http://",
     "nameChannel": "Classic Music",
     "logoChannel": "https://yt3.ggpht.com/MUnPOsa4vGHLJU0QvWwH7tpxOA2NdS48dn_BRxHdY-YHnvCNDvD8aDmHNl-tys1mBflCaI4dyA=s88-c-k-c0x00ffffff-no-rj",
     "viewsNbr": 16345312,
     "releaseDate": "2024-04-01",
-
-    "urlChannel": "http://"
+    "urlChannel": "https://www.youtube.com/@ClassicMusic96"
   },
   {
     "img": "assets/mario.webp",
@@ -32,13 +29,11 @@
     "link": "https://www.youtube.com/watch?v=zgHYumaVPYE&pp=ygUGbWFyaW8g",
     "title": "Super Mario Bros",
     "type": "jeuxVideos",
-    "miniatureAuteur": "http://",
     "nameChannel": "WIN Game Mario",
     "logoChannel": "https://yt3.googleusercontent.com/yEUDdWSvNj7qoa_3j9Om9-0D73wtkpcxztxxXqrGooxi4lHx23lw9yW3eyBIWwfj27Re2kpjoA=s176-c-k-c0x00ffffff-no-rj",
     "viewsNbr": 5687,
     "releaseDate": "2024-02-15",
-
-    "urlChannel": "http://"
+    "urlChannel": "https://www.youtube.com/@WINGameMario-bm5rw"
   },
   {
     "img": "assets/freeFight.webp",
@@ -46,27 +41,23 @@
     "link": "https://www.youtube.com/watch?v=5vKBeM4qcQc&pp=ygUKZnJlZSBmaWdodA%3D%3D",
     "title": "UFC 298 Free Fight Marathon",
     "type": "sport",
-    "miniatureAuteur": "http://",
     "nameChannel": "UFC",
     "logoChannel": "https://yt3.ggpht.com/BHfbCbg4x6VgO5sEDv0E5odG2ML9NOYxuDN8r91FhI1j0HFu2ulIus3j2D4M-7fdQvwBrgXX=s88-c-k-c0x00ffffff-no-rj",
     "viewsNbr": 357148,
     "releaseDate": "2024-04-08",
-
-    "urlChannel": "http://"
+    "urlChannel": "https://www.youtube.com/@ufc"
   },
   {
     "img": "assets/lofi.webp",
     "imgVideo": "https://i.ytimg.com/an_webp/IBFvmLEskPE/mqdefault_6s.webp?du=3000&sqp=CInyv7AG&rs=AOn4CLDNXQo8-5be882olVs1HYDJIZXFng",
     "link": "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-    "title": "Lofi",
+    "title": "Lofi Girl",
     "type": "musique",
-    "miniatureAuteur": "http://",
     "nameChannel": "chahca",
     "logoChannel": "assets/lofilogo.jpg",
     "viewsNbr": 55332,
     "releaseDate": "2018-05-12",
-
-    "urlChannel": "http://"
+    "urlChannel": "https://www.youtube.com/@LofiGirl"
   },
   {
     "img": "assets/zelda.webp",
@@ -74,13 +65,11 @@
     "link": "https://www.youtube.com/watch?v=Ou6UsEf1J_o&pp=ygUFemVsZGE%3D",
     "title": "The Legend of Zelda",
     "type": "jeuxVideos",
-    "miniatureAuteur": "http://",
     "nameChannel": "Encrypted Duck",
     "logoChannel": "https://yt3.ggpht.com/LaQWtzWA0Lf4nvveQCXgR-OGlSAyT4XSzLswD1eQHUzJShDL-FWBM8e4pijtlmcK84ScLDT_=s88-c-k-c0x00ffffff-no-rj",
     "viewsNbr": 32541,
     "releaseDate": "2023-05-12",
-
-    "urlChannel": "http://"
+    "urlChannel": "https://www.youtube.com/@EncryptedDuck"
   },
   {
     "img": "assets/travailMusic.webp",
@@ -88,12 +77,11 @@
     "link": "https://www.youtube.com/watch?v=91XNPpZ3VxE&pp=ygUPdHJhdmFpbCBtdXNpcXVl",
     "title": "Travail Musique",
     "type": "musique",
-    "miniatureAuteur": "http://",
     "nameChannel": "Onirik-Musique relaxante",
     "logoChannel": "https://yt3.ggpht.com/ytc/AIdro_nIyF2Ih8J7WszhZPiuchEH3OizxvzoAxcpbGUWwskSxw=s88-c-k-c0x00ffffff-no-rj",
     "viewsNbr": 46854,
     "releaseDate": "2024-03-12",
 
-    "urlChannel": "http://"
+    "urlChannel": "https://www.youtube.com/@onirik-musiquerelaxante568"
   }
 ]
