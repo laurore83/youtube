@@ -224,15 +224,32 @@ function updateSearchResults(searchText) {
 }
 
 // Sélectionnez l'élément de la barre de recherche
-const searchBar = document.getElementById("searchInput");
+// // avec le bouton
+// // Sélectionnez l'élément du bouton de recherche
+const searchButton = document.getElementById("searchButton");
 
+// Ajoutez un écouteur d'événements au bouton de recherche pour le clic
+searchButton.addEventListener("click", function () {
+  // // Récupérez la valeur saisie dans la barre de recherche
+  // const searchText = searchBar.value;
+  // // Vérifiez si le champ de recherche n'est pas vide
+  // if (searchText.trim() !== "") {
+  // Appelez la fonction de mise à jour des résultats de recherche avec le texte saisi
+  updateSearchResults(searchText);
+  // }
+  // // // Appelez la fonction de mise à jour des résultats de recherche avec le texte saisi
+  // // updateSearchResults(searchText);
+});
+// avec l'input
+const searchBar = document.getElementById("searchInput");
+let searchText = "";
 // Ajoutez un écouteur d'événements pour l'événement d'entrée (input)
-searchBar.addEventListener("input", function (event) {
+searchBar.addEventListener("change", function (event) {
   // Récupérez la valeur saisie dans la barre de recherche
-  const searchText = event.target.value;
+  searchText = event.target.value;
 
   // Utilisez la valeur récupérée pour effectuer une action, par exemple, filtrer les vidéos
   // console.log("Texte saisi :", searchText);
   // Appelez la fonction de mise à jour des résultats de recherche avec le texte saisi
-  updateSearchResults(searchText);
+  // updateSearchResults(searchText);
 });

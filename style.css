@@ -33,7 +33,7 @@ label {
   border-color: rgb(149, 145, 145);
 }
 
-.searchButton {
+#searchButton {
   margin-left: 0;
   border: 1px solid;
   border-radius: 0 40px 40px 0;
