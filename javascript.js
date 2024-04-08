@@ -22,7 +22,7 @@ postMethods();
 function createCard(data) {
   /*
     <div>
-      <a lien video>
+      <a link video>
         <img miniature video />
       </a>
       <div>
@@ -30,7 +30,7 @@ function createCard(data) {
           <img logo chaine />
         </div>
         <div>
-          <a href lien video>
+          <a href link video>
             titre video
           </a>
           <br />
@@ -46,14 +46,14 @@ function createCard(data) {
   const cardElement = document.createElement("div");
   cardElement.classList.add("card");
 
-  const lienVideoImg = document.createElement("a");
-  lienVideoImg.href = data.lien;
-  lienVideoImg.target = "_blank"; // Pour ouvrir le lien dans un nouvel onglet
+  const linkVideoImg = document.createElement("a");
+  linkVideoImg.href = data.link;
+  linkVideoImg.target = "_blank"; // Pour ouvrir le link dans un nouvel onglet
 
-  const miniatureVideo = document.createElement("img");
-  miniatureVideo.src = data.miniatureVideo;
-  lienVideoImg.appendChild(miniatureVideo);
-  cardElement.appendChild(lienVideoImg);
+  const img = document.createElement("img");
+  img.src = data.img;
+  linkVideoImg.appendChild(img);
+  cardElement.appendChild(linkVideoImg);
 
   const cardDetails = document.createElement("div");
   cardDetails.classList.add("cardDetails");
@@ -63,40 +63,40 @@ function createCard(data) {
   chaine.classList.add("logo");
   cardDetails.appendChild(chaine);
 
-  const logoChaine = document.createElement("img");
-  logoChaine.classList.add("logo");
+  const logoChannel = document.createElement("img");
+  logoChannel.classList.add("logo");
 
-  logoChaine.src = data.logoChaine;
-  chaine.appendChild(logoChaine);
+  logoChannel.src = data.logoChannel;
+  chaine.appendChild(logoChannel);
 
   const infosVideo = document.createElement("div");
   infosVideo.classList.add("infosVideo");
   cardDetails.appendChild(infosVideo);
 
-  const lienVideoTitle = document.createElement("a");
-  lienVideoTitle.href = data.lien;
-  lienVideoTitle.target = "_blank"; // Pour ouvrir le lien dans un nouvel onglet
-  infosVideo.appendChild(lienVideoTitle);
+  const linkVideoTitle = document.createElement("a");
+  linkVideoTitle.href = data.link;
+  linkVideoTitle.target = "_blank"; // Pour ouvrir le link dans un nouvel onglet
+  infosVideo.appendChild(linkVideoTitle);
 
   const titreVideo = document.createElement("span");
   titreVideo.classList.add("titreVideo");
   titreVideo.textContent = data.titre;
-  lienVideoTitle.appendChild(titreVideo);
+  linkVideoTitle.appendChild(titreVideo);
 
-  const nomDeLaChaine = document.createElement("h2");
-  nomDeLaChaine.textContent = data.nomDeLaChaine;
-  infosVideo.appendChild(nomDeLaChaine);
+  const nameChannel = document.createElement("h2");
+  nameChannel.textContent = data.nameChannel;
+  infosVideo.appendChild(nameChannel);
 
-  const nombreDeVuest = document.createElement("span");
-  nombreDeVuest.classList.add("nombreDeVuest");
-  nombreDeVuest.textContent = data.nombreDeVuest;
-  infosVideo.appendChild(nombreDeVuest);
+  const viewsNbr = document.createElement("span");
+  viewsNbr.classList.add("viewsNbr");
+  viewsNbr.textContent = data.viewsNbr;
+  infosVideo.appendChild(viewsNbr);
 
-  const dateDeParution = document.createElement("span");
-  dateDeParution.classList.add("dateDeParution");
-  dateDeParution.textContent = ". " + data.dateDeParution;
-  // dateDeParution.textContent = `. ${data.dateDeParution}`;
-  infosVideo.appendChild(dateDeParution);
+  const releaseDate = document.createElement("span");
+  releaseDate.classList.add("releaseDate");
+  releaseDate.textContent = ". " + data.releaseDate;
+  // releaseDate.textContent = `. ${data.releaseDate}`;
+  infosVideo.appendChild(releaseDate);
 
   //   // Ajouter la carte au conteneur des cartes dans votre page HTML
   document.getElementById("card-container").appendChild(cardElement);
@@ -108,11 +108,11 @@ function createCard(data) {
   //   console.log(dateNow);
 
   //   // date de parution
-  //   const dateDeParution = Date.parse(data.dateDeParution);
-  //   console.log(dateDeParution);
+  //   const releaseDate = Date.parse(data.releaseDate);
+  //   console.log(releaseDate);
 
   //   function updateDuration() {
-  //     const duration = dateNow - dateDeParution;
+  //     const duration = dateNow - releaseDate;
   //     // const durationS = formate en seconde
   //     console.log(duration);
   //     // console.log(durationS);
@@ -121,12 +121,12 @@ function createCard(data) {
 
   // hover
   // Ajouter l'écouteur d'événements mouseover à l'image miniature
-  miniatureVideo.addEventListener("mouseover", function () {
-    miniatureVideo.src = data.imgVideo;
+  img.addEventListener("mouseover", function () {
+    img.src = data.imgVideo;
   });
   // Ajouter l'écouteur d'événements mouseout à l'image miniature
-  miniatureVideo.addEventListener("mouseout", function () {
-    miniatureVideo.src = data.miniatureVideo;
+  img.addEventListener("mouseout", function () {
+    img.src = data.img;
   });
 }
 
