@@ -83,9 +83,14 @@ function createCard(data) {
   titleVideo.textContent = data.title;
   linkVideoTitle.appendChild(titleVideo);
 
+  const linkChannelTitle = document.createElement("a");
+  linkChannelTitle.href = data.urlChannel;
+  linkChannelTitle.target = "_blank"; // Pour ouvrir le link dans un nouvel onglet
+  infosVideo.appendChild(linkChannelTitle);
+
   const nameChannel = document.createElement("h2");
   nameChannel.textContent = data.nameChannel;
-  infosVideo.appendChild(nameChannel);
+  linkChannelTitle.appendChild(nameChannel);
 
   const viewsNbr = document.createElement("span");
   viewsNbr.classList.add("viewsNbr");
