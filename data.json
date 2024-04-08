@@ -10,7 +10,7 @@
     "viewsNbr": 8050,
     "releaseDate": "1998-05-05",
 
-    "urlDeLaChaine": "https://www.youtube.com/@fifa"
+    "urlChannel": "https://www.youtube.com/@fifa"
   },
   {
     "img": "assets/mozart.webp",
@@ -24,7 +24,7 @@
     "viewsNbr": 16345312,
     "releaseDate": "2024-04-01",
 
-    "urlDeLaChaine": "http://"
+    "urlChannel": "http://"
   },
   {
     "img": "assets/mario.webp",
@@ -38,7 +38,7 @@
     "viewsNbr": 5687,
     "releaseDate": "2024-02-15",
 
-    "urlDeLaChaine": "http://"
+    "urlChannel": "http://"
   },
   {
     "img": "assets/freeFight.webp",
@@ -52,7 +52,7 @@
     "viewsNbr": 357148,
     "releaseDate": "2024-04-08",
 
-    "urlDeLaChaine": "http://"
+    "urlChannel": "http://"
   },
   {
     "img": "assets/lofi.webp",
@@ -66,7 +66,7 @@
     "viewsNbr": 55332,
     "releaseDate": "2018-05-12",
 
-    "urlDeLaChaine": "http://"
+    "urlChannel": "http://"
   },
   {
     "img": "assets/zelda.webp",
@@ -80,7 +80,7 @@
     "viewsNbr": 32541,
     "releaseDate": "2023-05-12",
 
-    "urlDeLaChaine": "http://"
+    "urlChannel": "http://"
   },
   {
     "img": "assets/travailMusic.webp",
@@ -94,6 +94,6 @@
     "viewsNbr": 46854,
     "releaseDate": "2024-03-12",
 
-    "urlDeLaChaine": "http://"
+    "urlChannel": "http://"
   }
 ]
