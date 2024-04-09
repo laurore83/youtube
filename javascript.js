@@ -1,3 +1,4 @@
+import { updateDateDuration } from "./updateDateDuration.js";
 let cardData = [];
 // récupération de toutes les cartes
 const postMethods = async () => {
@@ -111,53 +112,11 @@ function createCard(data) {
 
   const releaseDate = document.createElement("span");
   releaseDate.classList.add("releaseDate");
-  // releaseDate.textContent = `. ${data.releaseDate}`;
+  releaseDate.textContent = updateDateDuration(data.releaseDate);
   infosVideo.appendChild(releaseDate);
 
   //   // Ajouter la carte au conteneur des cartes dans votre page HTML
   document.getElementById("card-container").appendChild(cardElement);
-
-  function updateDuration() {
-    // calcul de durée
-
-    // date du jour en milliseconde
-    const dateNow = Date.now();
-    console.log(dateNow);
-
-    // date de parution en millisecondes
-    const releaseDateMilliS = Date.parse(data.releaseDate);
-    console.log(releaseDateMilliS);
-    // différence en secondes
-    const duration = (dateNow - releaseDateMilliS) / 1000;
-
-    // condition de foramtage
-
-    if (duration < 60) {
-      releaseDate.textContent = `${Math.floor(duration)} seconds ago`;
-    } else if (duration < 3600) {
-      releaseDate.textContent = `${Math.floor(duration / 60)} minutes ago`;
-    } else if (duration < 86400) {
-      releaseDate.textContent = `${Math.floor(duration / 3600)} hours ago`;
-    } else if (duration < 604800) {
-      releaseDate.textContent = `${Math.floor(
-        duration / (3600 * 24)
-      )} days ago`;
-    } else if (duration < 2419200) {
-      releaseDate.textContent = `${Math.floor(
-        duration / (3600 * 24 * 7)
-      )} weeks ago`;
-    } else if (duration < 29030400) {
-      releaseDate.textContent = `${Math.floor(
-        duration / (3600 * 24 * 30)
-      )} months ago`;
-    } else {
-      releaseDate.textContent = `${Math.floor(
-        duration / (3600 * 24 * 365)
-      )} years ago`;
-    }
-    console.log(releaseDate);
-  }
-  updateDuration();
 
   // hover
   // Ajouter l'écouteur d'événements mouseover à l'image miniature
